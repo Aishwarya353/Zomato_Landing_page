@@ -94,72 +94,35 @@ div.search-box div {
   height: 50px;
   margin: 0px 50px;
 }
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+section.nearby {
+  min-height: 40vh;
 }
-div.Countries {
-  min-width: 6rem;
-  width: max-content;
-  max-width: 100%;
-  cursor: pointer;
-  position: relative;
-  padding: 0.3rem 0.7rem;
-  border: 1px solid rgb(181, 181, 181);
-  border-top-color: rgb(181, 181, 181);
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-right-color: rgb(181, 181, 181);
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-bottom-color: rgb(181, 181, 181);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-left-color: rgb(181, 181, 181);
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
-  border-radius: 0.3rem;
+section.nearby div.container {
+  width: 90%;
+  margin: 0px auto;
+
+  text-align: center;
+  padding: 40px 0px;
 }
-div.Languages {
-  min-width: 6rem;
-  width: max-content;
-  max-width: 100%;
-  cursor: pointer;
-  position: relative;
-  padding: 0.3rem 0.7rem;
-  border: 1px solid rgb(181, 181, 181);
-  border-top-color: rgb(181, 181, 181);
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-right-color: rgb(181, 181, 181);
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-bottom-color: rgb(181, 181, 181);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-left-color: rgb(181, 181, 181);
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
-  border-radius: 0.3rem;
+
+section.nearby div.container h3 {
+  font-size: 2.2rem;
+  font-weight: unset;
 }
-footer.footer-links {
-  position: relative;
+section.nearby div.box {
+  max-width: 25%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: inherit;
-  width: 10px;
+  justify-content: space-between;
+  padding: 25px 15px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin: 5%;
+}
+section.nearby div.box:hover {
+  cursor: pointer;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
